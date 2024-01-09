@@ -1,0 +1,8 @@
+gxz:
+  info:
+    name: abc
+    age: 18
+    prefer:
+      - 这是
+      - 一个
+      - 集合
