@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-base-quick01" />
         <module name="springboot-base-application02" />
+        <module name="springboot-base-springmvc03" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-base-application02" options="-parameters" />
       <module name="springboot-base-quick01" options="-parameters" />
+      <module name="springboot-base-springmvc03" options="-parameters" />
     </option>
   </component>
 </project>
