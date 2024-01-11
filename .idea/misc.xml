@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/springboot-base-quick01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-base-application02/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-base-springmvc03/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-base-druid04/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-base-mybatis05/pom.xml" />
       </list>
     </option>
   </component>

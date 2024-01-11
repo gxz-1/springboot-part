@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-base-quick01" />
+        <module name="springboot-base-druid04" />
+        <module name="springboot-base-mybatis05" />
         <module name="springboot-base-application02" />
         <module name="springboot-base-springmvc03" />
       </profile>
@@ -16,6 +18,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-base-application02" options="-parameters" />
+      <module name="springboot-base-druid04" options="-parameters" />
+      <module name="springboot-base-mybatis05" options="-parameters" />
       <module name="springboot-base-quick01" options="-parameters" />
       <module name="springboot-base-springmvc03" options="-parameters" />
     </option>

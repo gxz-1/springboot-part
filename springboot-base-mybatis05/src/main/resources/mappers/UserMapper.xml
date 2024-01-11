@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--由于单独对xml文件和java接口位置进行指定（在启动类中指定接口，yml中指定xml），不需要创建com.gxz.mapper三层-->
+<mapper namespace="com.gxz.mapper.StudentMapper">
+
+    <resultMap id="studentMap" type="student">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="gender" property="gender"/>
+        <result column="age" property="age"/>
+        <result column="class" property="classes"/>
+<!--        由于类中班级为classes与数据库名称不匹配，用resultMap指定-->
+    </resultMap>
+
+    <select id="queryAll" resultMap="studentMap">
+        select * from students
+    </select>
+</mapper>
