@@ -43,6 +43,12 @@
         </dependency>
 
         <dependency>
+            <!-- AOP支持-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.25</version>
@@ -53,5 +59,17 @@
             <artifactId>lombok</artifactId>
             <version>1.18.28</version>
         </dependency>
+
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+<!-- springboot自带tomcat服务器，需要专门的插件打包成jar(内置tomcat),并通过java -jar -D* ***.jar直接运行-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+<!--  可以通过-D参数动态指定配置，注意-D参数必须要在jar之前-->
+            </plugin>
+        </plugins>
+    </build>
 </project>

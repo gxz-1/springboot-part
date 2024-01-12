@@ -17,4 +17,8 @@
     <select id="queryAll" resultMap="studentMap">
         select * from students
     </select>
+
+    <delete id="delete">
+        delete from students where id=#{id}
+    </delete>
 </mapper>

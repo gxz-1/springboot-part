@@ -3,7 +3,7 @@ server:
   servlet:
     context-path: /boot
 
-#多环境配置,激活application-info.yml和application-root.yml,这些外部配置会覆盖这个配置
+#多环境配置,激活application-info.yml和application-root.yml,如果属性相同，这些外部配置会覆盖这个配置
 spring:
   profiles:
     active: druid,mybatis
