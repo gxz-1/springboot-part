@@ -1,0 +1,18 @@
+# 连接池配置
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql:///studb
+      username: admin
+      password: password
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+# mybatis-plus配置
+mybatis-plus:
+  # 1.驼峰式映射默认开启   2.mapper-location默认位置为“classpath:/mapper/*”
+  configuration:
+    # 3.控制台输出
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 4.配置别名
+  type-aliases-package: com.gxz.pojo

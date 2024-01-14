@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gxz.mapper.StudentMapper">
+
+<!--    resultType还是写Student，因为MybatisPlus会自动封装-->
+    <select id="queryByAge" resultType="student">
+<!--        不能写分号，底层是通过在语句后添加limit实现-->
+        select * from where age > #{age}
+    </select>
+</mapper>

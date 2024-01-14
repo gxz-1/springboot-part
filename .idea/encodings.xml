@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$USER_HOME$/application/apache-maven-3.6.3/myRepository/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base-application02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base-application02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base-druid04/src/main/java" charset="UTF-8" />
@@ -10,6 +11,9 @@
     <file url="file://$PROJECT_DIR$/springboot-base-quick01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base-springmvc03/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base-springmvc03/src/main/resources" charset="UTF-8" />
-    <file url="file://$USER_HOME$/application/apache-maven-3.6.3/myRepository/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus-page02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus-page02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus-quick01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus-quick01/src/main/resources" charset="UTF-8" />
   </component>
 </project>
