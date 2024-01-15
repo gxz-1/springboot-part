@@ -18,5 +18,7 @@ mybatis-plus:
   type-aliases-package: com.gxz.pojo
   global-config:
     db-config:
-      #指定实体类到数据库表映射时，表名称的前缀
+      # 5.设置全局主键生成策略 auto自增长 ASSIGN_ID雪花算法
+      id_type: auto
+      # 6.实体类到数据库表映射时，表名称的前缀
 #      table-prefix: t_
