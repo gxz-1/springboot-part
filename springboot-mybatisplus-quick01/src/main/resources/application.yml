@@ -16,3 +16,7 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   # 4.配置别名
   type-aliases-package: com.gxz.pojo
+  global-config:
+    db-config:
+      #指定实体类到数据库表映射时，表名称的前缀
+#      table-prefix: t_

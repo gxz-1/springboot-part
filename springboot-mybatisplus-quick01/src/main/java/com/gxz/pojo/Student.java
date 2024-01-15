@@ -11,6 +11,8 @@ public class Student {
     private String name;
     private String gender;
     private Integer age;
-    @TableField("class") // 映射到数据库中的字段
+    @TableField("class") //映射到数据库中的字段名
     private String classes;
+    @TableField(exist = false)//exist= false表示不当做数据库字段
+    private String en;
 }
