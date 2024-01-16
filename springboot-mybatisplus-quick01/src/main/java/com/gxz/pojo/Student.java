@@ -1,9 +1,6 @@
 package com.gxz.pojo;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 @Data
@@ -20,4 +17,12 @@ public class Student {
     private String classes;
     @TableField(exist = false)//exist= false表示不当做数据库字段
     private String en;
+
+    @TableLogic //将这个字段标记为逻辑删除的状态字段
+    // 删除时改为修改此列的属性值为1 查找时只查找deleted为0的(对于多个表，可以在yml中全局配置）
+    private Integer deleted;
+
+    @Version //乐观锁的版本号字段
+    // 仅支持updatebyid和update方法 仅支持数据类型：int，long，Date，Timestamp，LocalDateTime
+    private Integer version;
 }

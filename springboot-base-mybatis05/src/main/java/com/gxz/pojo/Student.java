@@ -1,5 +1,6 @@
 package com.gxz.pojo;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
 
 @Data

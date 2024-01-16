@@ -52,7 +52,7 @@ public class BootTest {
         //1.插入
         studentMapper.insert(s);
         //2.1 根据wrapper条件删除
-        studentMapper.delete(null);
+//        studentMapper.delete(null);//没有条件就是全表删除
         //2.2 根据Id删除
         studentMapper.deleteById(2);
         //2.3 根据map删除
