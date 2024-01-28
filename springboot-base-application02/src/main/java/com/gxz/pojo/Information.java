@@ -11,7 +11,7 @@ import java.util.List;
 @Data //设置get、set等,从而进行自动装配
 @ConfigurationProperties(prefix = "gxz.info")//批量数据读取，prefix:相同的前缀
 public class Information {
-//    @Value("${gxz.info.name}")
+    @Value("${gxz.info.name}")
     private String name;
 //    @Value("${gxz.info.age}")
     private Integer age;

@@ -7,4 +7,4 @@ server:
 spring:
   web:
     resources:
-      static-locations: classpath:/webapp #设置静态资源文件夹
+      static-locations: classpath:/webapp #设置静态资源文件夹(覆盖默认路径)

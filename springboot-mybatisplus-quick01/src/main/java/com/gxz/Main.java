@@ -32,6 +32,5 @@ public class Main {
         mybatisPlusInterceptor.addInnerInterceptor(new BlockAttackInnerInterceptor());
 
         return mybatisPlusInterceptor;
-
     }
 }
